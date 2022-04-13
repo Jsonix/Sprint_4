@@ -1,12 +1,8 @@
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
-
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.*;
 
 public class AccountTest {
 
-    @DisplayName("Correct name test")
     @Test
     public void checkThatCorrectNameReturnTrue(){
         String fullName = "Fedor Fedorov";
